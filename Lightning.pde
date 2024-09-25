@@ -63,8 +63,6 @@ void draw() {
 
   // make lightning thinner as it goes down the line
   lightningThickness -= 0.1;
-  System.out.println("lightning thickness: " + lightningThickness);
-  System.out.println("start x: " + startY);
 
   // if lightning gets too thin, keep it at a minimum thinness
   if (lightningThickness < 1) {
